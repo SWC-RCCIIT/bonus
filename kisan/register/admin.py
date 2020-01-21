@@ -1,4 +1,5 @@
 from django.contrib import admin
-from .models import detail
+from .models import Farmer,Buyer
 
-admin.site.register(detail)
+admin.site.register(Farmer)
+admin.site.register(Buyer)
