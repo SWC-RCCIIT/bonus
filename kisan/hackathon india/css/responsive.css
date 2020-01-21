@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1024px)
+{
+	div.my-pic{
+		width:40%;
+		display:block;
+	}
+.form-style-5{
+		margin-top: 0px;
+	}
+	div.about-text{
+		width:60%;
+		padding:0px 40px;
+		display:block;
+
+	}
+	
+	div.online-mkt,div.seo{
+		display:none;
+	}
+	
+	div.about-skills{
+		width:30%;
+		padding:30px 0px;
+	}
+	
+	div.skill-bar{
+		width:50%;
+		padding:30px 0px;
+	}
+
+	/* start people says */
+
+	div.people{
+		width:40%;
+		margin:20px 5%;
+	}
+
+	/* end people says */
+
+
+	/* start contact */
+
+	div.contacts{
+		background-size:120% 70%;
+	}
+
+	div.contacts-icon i{
+		margin-right:115px;
+	}
+
+	.contacts img{
+		width:70%;
+	}
+
+	/* end contact */
+}
+@media (max-width: 801px){
+	div.people{
+		width:90%;
+	
+	}
+	div.contacts-icon i{
+		margin-right:50px;
+        margin-top: 30px;
+	}
+		.contacts img{
+		display: none;
+	}
+}
+@media (max-width:768px)
+{
+
+	.slider{
+	margin:-500px auto;
+	}
+
+	div.web-design,div.graphic-design{
+		display:none;
+	}
+
+		/* start people says */
+
+	div.people{
+		width:90%;
+	
+	}
+
+	/* end people says */
+
+		/* start contact */
+
+	div.contacts{
+		background-size:120% 60%;;
+	}
+
+	div.contacts-icon i{
+		margin-right:40px;
+		margin-top:25px;
+	}
+
+	.contacts img{
+		display:none;
+	}
+
+	address.num{
+	float:left;
+	margin:10px 0;
+	clear:left;}
+	.form-style-5{
+		margin-top: 0px;
+	}
+}
+	/* end contact */
+
+@media(max-width: 650px)
+{
+	div.contacts-icon i{
+		margin-right:20px;}
+		.form-style-5{
+		margin-top: 0px;
+	}
+}
+@media (max-width:481px)
+{
+   .form-style-5{
+		margin-top: 0px;
+	}
+	div.about-me{
+		padding-left:0;
+	}
+
+	div.my-pic,div.about-text{
+		width:100%;
+		
+	}
+	
+	div.about-text{
+		padding:20px 30px;
+	}
+	
+	div.web-design,div.graphic-design,div.online-mkt,div.seo{
+		display:block;
+	}
+	
+	div.about-skills{
+		width:100%;
+		margin-left:0%;
+		margin-right:0%;
+		padding:0px 30px;
+	}
+	
+	div.skill-bar{
+		width:100%;
+		margin-left:0%;
+		margin-right:0%;
+		padding:30px 30px;
+	}
+
+	div.contacts{
+		background-size:300% 20%;
+	}
+
+
+	div.footer{
+		font-size:15px;
+	}
+
+	address.num{
+	display: none;
+}
+div.contacts-icon i{
+		margin-right:50px;
+		
+	}
+	#ceo{
+		font-size: 13px;
+	}
+}
+@media (max-width:400px)
+{
+	div.contacts-icon i{
+		margin-right:20px;
+		
+	}
+	.form-style-5{
+		margin-top: 0px;
+	}
+address.num{
+	display: none;
+}
+	}
