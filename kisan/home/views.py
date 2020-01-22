@@ -1,4 +1,8 @@
 from django.http import HttpResponse
+from django.template import loader
 
 def index(request):
-	return HttpResponse("<h1> This is going to be our home page </h1>")
+	template=loader.get_template('home/index.html')
+	context={}
+	return HttpResponse(template.render(context,request))
+	

@@ -3,7 +3,7 @@ from django.urls import path
 from register.models import Farmer, Buyer
 
 urlpatterns = [
-    path('',views.index,name="index"),
     path('detailf/',views.detailf,name="detailf"),
+    path('',views.index,name="index"),
     
 ]
