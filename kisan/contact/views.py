@@ -1,4 +1,8 @@
 from django.http import HttpResponse
+from django.template import loader
 
 def index(request):
-	return HttpResponse("<h1> This page will save our contact details</h1>")
+	template=loader.get_template('contact/contact.html')
+	context={}
+	return HttpResponse(template.render(context,request))
+	
